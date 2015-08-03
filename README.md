@@ -37,19 +37,18 @@ Data that I use through out my applications.
   "id": 123,
   "firstName": "Isabella",
   "lastName": "Ramirez",
-  "followers_id": [
-    1,23,44,21,22,11,93],
+  "followers_id": [1,23,44,21,22,11,93],
   "favorited_posts": [
-    {
+   {
       "id": 23,
       "date_published": 1448067813,
       "title": "The top 20 most interesting stories in the world"
-    },
-    {
+   },
+   {
       "id": 17,
       "date_published": 1446339813,
       "title": "The Best hiking trails in the US"
-    }
+   }
   ]
 }
 ```
