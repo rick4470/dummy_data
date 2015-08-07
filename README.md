@@ -53,7 +53,7 @@ Data that I use through out my applications.
 }
 ```
 
-```javascript
+```json
 {
   "schema": "http://learnmean.com/schema#",
   "id": "http://learnmean.com",
