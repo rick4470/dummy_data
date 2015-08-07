@@ -52,3 +52,53 @@ Data that I use through out my applications.
   ]
 }
 ```
+
+```javascript
+{
+  "schema": "http://learnmean.com/schema#",
+  "id": "http://learnmean.com",
+  "type": "object",
+  "properties": {
+    "address": {
+      "id": "http://learnmean.com/address",
+      "type": "object",
+      "properties": {
+        "streetAddress": {
+          "id": "http://learnmean.com/address",
+          "type": "string"
+        },
+        "city": {
+          "id": "http://learnmean.com/address/city",
+          "type": "string"
+        }
+      },
+      "required": [
+        "streetAddress",
+        "city"
+      ]
+    },
+    "phoneNumber": {
+      "id": "http://learnmean.com/phoneNumber",
+      "type": "array",
+      "items": {
+        "id": "http://learnmean.com/phoneNumber/0",
+        "type": "object",
+        "properties": {
+          "location": {
+            "id": "http://learnmean.com/phoneNumber/0/location",
+            "type": "string"
+          },
+          "code": {
+            "id": "http://learnmean.com/phoneNumber/0/code",
+            "type": "integer"
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "address",
+    "phoneNumber"
+  ]
+}
+```
